@@ -1,0 +1,44 @@
+/* button{
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    
+}
+.special{
+    color: crimson;
+    font-size: 3rem;
+} */
+
+ /* #fileinp{
+    display:none;
+ }
+ #upload{
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: rgb(111, 111, 241);
+    color: white;
+    font-size: 2rem;
+ }
+ #upload:hover{
+    background-color: rgb(10, 10, 104);
+    cursor:pointer;
+ } */
+  #abc{
+    color: crimson;
+    font-size: 3rem;
+    font-family: cursive;
+  }
+   #cars{
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: crimson;
+    color: white;
+    font-size: 2rem;
+   }
+   #unique{
+    color: rgba(87, 4, 22, 0.979);
+    font-size: 3rem;
+    font-family: cursive;
+   }

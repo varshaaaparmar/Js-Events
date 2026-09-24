@@ -1,4 +1,4 @@
-Dynamic product card generator built with HTML, CSS, and JavaScript using DOM manipulation and interactive form events.# Dynamic Product Card Generator
+# Dynamic Product Card Generator
 
 A beginner-friendly JavaScript project that dynamically creates product cards using form inputs and DOM manipulation.
 
