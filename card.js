@@ -24,12 +24,17 @@ form.addEventListener("submit", (e) => {
     let btn1 = document.createElement("button");
     btn1.classList.add("buyNowButton");
     btn1.setAttribute("type", "button");
-    btn1.textContent = "Buy Now";
+    btn1.textContent = "Buy Now ➔";
+    btn1.addEventListener("click", () => {
+        btn1.textContent = "Purchased ✓";
+        btn1.disabled = true;
+    });
     let btn2 = document.createElement("button");
     btn2.classList.add("addToCartButton");
     btn2.setAttribute("type", "button");
-    btn2.textContent = "Add to Cart";
+    btn2.textContent = "Add to Cart  🛒";
     btn2.addEventListener("click", () => {
+        btn2.classList.add("btn2-afterEff");
         btn2.textContent = "Added to Cart";
         btn2.disabled = true;
     });
@@ -40,6 +45,7 @@ form.addEventListener("submit", (e) => {
     card.appendChild(btn1);
     card.appendChild(btn2);
 main.appendChild(card);
+form.style.display = "none";
 form.reset();
 
 });
